@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "templates": [
+    {
+      "id": "sample-0",
+      "name": "square",
+      "state": {
+        "text": "JUST\nSTART.",
+        "ratio": "1:1",
+        "size": 140,
+        "color": "#19231b",
+        "bg": "#d9fb58",
+        "y": 50,
+        "font": "sans",
+        "align": "center",
+        "stroke": false,
+        "transparent": false,
+        "fit": "cover",
+        "image": null
+      }
+    },
+    {
+      "id": "sample-1",
+      "name": "portrait",
+      "state": {
+        "text": "SLOW IS\nSTILL\nFORWARD.",
+        "ratio": "4:5",
+        "size": 140,
+        "color": "#19231b",
+        "bg": "#cbdcff",
+        "x": 50,
+        "y": 50,
+        "font": "sans",
+        "align": "center",
+        "stroke": false,
+        "transparent": false,
+        "fit": "cover",
+        "image": null
+      }
+    },
+    {
+      "id": "sample-2",
+      "name": "story",
+      "state": {
+        "text": "SMALL\nSTEPS.\nBIG\nPOSSIBILITIES.",
+        "ratio": "9:16",
+        "size": 120,
+        "color": "#19231b",
+        "bg": "#f2d1dc",
+        "x": 50,
+        "y": 50,
+        "font": "sans",
+        "align": "center",
+        "stroke": false,
+        "transparent": false,
+        "fit": "cover",
+        "image": null
+      }
+    }
+  ]
+}

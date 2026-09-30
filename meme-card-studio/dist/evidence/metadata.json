@@ -1,0 +1,53 @@
+[
+  {
+    "file": "story.png",
+    "chunks": [
+      "IHDR",
+      "sBIT",
+      "sRGB",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IEND"
+    ],
+    "location_metadata": false
+  },
+  {
+    "file": "square.png",
+    "chunks": [
+      "IHDR",
+      "sBIT",
+      "sRGB",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IEND"
+    ],
+    "location_metadata": false
+  },
+  {
+    "file": "portrait.png",
+    "chunks": [
+      "IHDR",
+      "sBIT",
+      "sRGB",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IDAT",
+      "IEND"
+    ],
+    "location_metadata": false
+  }
+]

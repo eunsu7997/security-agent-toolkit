@@ -1,0 +1,41 @@
+{
+  "engine": "Node VM with DOM/storage stubs; real browser reload NOT tested",
+  "results": [
+    {
+      "name": "템플릿 3개 생성",
+      "result": "PASS"
+    },
+    {
+      "name": "불러오기·수정",
+      "result": "PASS"
+    },
+    {
+      "name": "삭제 후 새 실행에서 저장 데이터 복원",
+      "result": "PASS"
+    },
+    {
+      "name": "지원하지 않는 파일 입력 후 작업 유지",
+      "result": "PASS"
+    },
+    {
+      "name": "정상 JSON 가져오기",
+      "result": "PASS"
+    },
+    {
+      "name": "손상 JSON 후 기존 저장값 유지",
+      "result": "PASS"
+    },
+    {
+      "name": "필수 값 누락 후 기존 저장값 유지",
+      "result": "PASS"
+    },
+    {
+      "name": "깨진 내장 이미지 JSON 원자적 거부",
+      "result": "PASS"
+    },
+    {
+      "name": "용량 초과 시 기존 템플릿·편집 상태 보존",
+      "result": "PASS"
+    }
+  ]
+}

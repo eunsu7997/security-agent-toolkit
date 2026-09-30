@@ -1,0 +1,80 @@
+{
+  "engine": "Node + @napi-rs/canvas (not browser UI)",
+  "timestamp": "2026-09-30T03:07:33.554Z",
+  "limitations": [
+    "브라우저 실제 클릭·새로고침 유지·시크릿 접근은 별도 확인 필요",
+    "테스트 환경에 한글 글꼴이 없어 한글 글리프 모양은 검증하지 않음",
+    "WebMCP 지원 브라우저 검증 불가"
+  ],
+  "results": [
+    {
+      "name": "01 긴 한글 1,500자: 문자열 보존·영역 내부 배치",
+      "result": "PASS"
+    },
+    {
+      "name": "02 긴 영문: 문자 유실 없이 줄바꿈",
+      "result": "PASS"
+    },
+    {
+      "name": "03 한영 혼합",
+      "result": "PASS"
+    },
+    {
+      "name": "04 명시적 줄바꿈",
+      "result": "PASS"
+    },
+    {
+      "name": "05 결합 이모지 보존",
+      "result": "PASS"
+    },
+    {
+      "name": "06 빈 문구",
+      "result": "PASS"
+    },
+    {
+      "name": "07 세로 이미지 cover·contain",
+      "result": "PASS"
+    },
+    {
+      "name": "08 가로 JPEG 디코딩·렌더링",
+      "result": "PASS"
+    },
+    {
+      "name": "09 투명 PNG 알파 보존",
+      "result": "PASS"
+    },
+    {
+      "name": "10 극단 위치·최대 글자 크기",
+      "result": "PASS"
+    },
+    {
+      "name": "11 2,000자 초과 문구 거부",
+      "result": "PASS"
+    },
+    {
+      "name": "12 1,998개 줄바꿈: 하단 잘림 방지",
+      "result": "FAIL",
+      "detail": "문구 블록이 캔버스 하단을 넘음"
+    },
+    {
+      "name": "정상 JSON 템플릿 3개 왕복",
+      "result": "PASS"
+    },
+    {
+      "name": "손상 JSON 거부",
+      "result": "PASS"
+    },
+    {
+      "name": "필수 값 누락 JSON 거부",
+      "result": "PASS"
+    },
+    {
+      "name": "외부 이미지 URL·중복 ID 거부",
+      "result": "PASS"
+    },
+    {
+      "name": "3개 비율 PNG 인코딩·디코딩 픽셀 일치",
+      "result": "PASS"
+    }
+  ]
+}
